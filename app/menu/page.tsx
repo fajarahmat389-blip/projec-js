@@ -36,9 +36,10 @@ export default function Home() {
           </div>
           
           <div className="hidden items-center gap-8 md:flex">
-            <a href="#" className="text-sm font-medium hover:text-indigo-600 transition-colors">Jelajahi</a>
+            <a href="../explore" className="text-sm font-medium hover:text-indigo-600 transition-colors">Jelajahi</a>
             <a href="#" className="text-sm font-medium hover:text-indigo-600 transition-colors">Populer</a>
-            <a href="#" className="text-sm font-medium hover:text-indigo-600 transition-colors">Terbaru</a>
+            <a href="../" className="text-sm font-medium hover:text-indigo-600 transition-colors">menu</a>
+            <a href="../blog" className="text-sm font-medium hover:text-indigo-600 transition-colors">Blog</a>
           </div>
 
           <div className="flex items-center gap-4">
@@ -98,7 +99,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-zinc-500">Pembaca Aktif</p>
-                  <p className="text-xl font-bold">45.2rb+</p>
+                  <p className="text-xl font-bold">92.2rb+</p>
                 </div>
               </div>
             </div>
@@ -125,7 +126,7 @@ export default function Home() {
                      RANK #{item}
                    </div>
                 </div>
-                <h4 className="line-clamp-1 font-bold group-hover:text-indigo-600 transition-colors">Reinkarnasi Sang Penulis {item}</h4>
+                <h4 className="line-clamp-1 font-bold group-hover:text-indigo-600 transition-colors">Ari The jomokers {item}</h4>
                 <p className="text-xs text-zinc-500">Aksi, Petualangan</p>
               </div>
             ))}
